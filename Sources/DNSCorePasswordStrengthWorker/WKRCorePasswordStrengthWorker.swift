@@ -12,6 +12,8 @@ import Foundation
 
 open class WKRCorePasswordStrengthWorker: WKRBlankPasswordStrengthWorker
 {
+    public var minimunLength = 6
+    
     let regexOneUppercase = "^(?=.*[A-Z]).*$"
     let regexOneLowercase = "^(?=.*[a-z]).*$"
     let regexOneNumber = "^(?=.*[0-9]).*$"
