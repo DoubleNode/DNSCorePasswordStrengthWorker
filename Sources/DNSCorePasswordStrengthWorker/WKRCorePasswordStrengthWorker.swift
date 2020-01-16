@@ -1,16 +1,16 @@
 //
-//  WKRCrashPasswordStrengthWorker.swift
-//  DoubleNode Core - DNSCrashWorkers
+//  WKRCorePasswordStrengthWorker.swift
+//  DoubleNode Core - DNSCorePasswordStrengthWorker
 //
 //  Created by Darren Ehlers on 2019/08/12.
 //  Copyright © 2019 - 2016 Darren Ehlers and DoubleNode, LLC. All rights reserved.
 //
 
-import DNSCrashWorkers
+import DNSBlankWorkers
 import DNSProtocols
 import Foundation
 
-open class WKRCorePasswordStrengthWorker: WKRCrashPasswordStrengthWorker
+open class WKRCorePasswordStrengthWorker: WKRBlankPasswordStrengthWorker
 {
     let regexOneUppercase = "^(?=.*[A-Z]).*$"
     let regexOneLowercase = "^(?=.*[a-z]).*$"

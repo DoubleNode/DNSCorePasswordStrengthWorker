@@ -1,7 +1,7 @@
 import XCTest
-@testable import DNSCrashWorkers
+@testable import DNSCorePasswordStrengthWorker
 
-final class WKRCrashPasswordStrengthWorkerTests: XCTestCase {
+final class WKRCorePasswordStrengthWorkerTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
