@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AtomicSwift",
+        "repositoryURL": "https://github.com/MarioIannotta/AtomicSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "e2913c6e873bc60237dd138ba0db9b109016dd80",
+          "version": "1.2.1"
+        }
+      },
+      {
+        "package": "DNSBlankWorkers",
+        "repositoryURL": "https://github.com/DoubleNode/DNSBlankWorkers.git",
+        "state": {
+          "branch": null,
+          "revision": "a8d5726b94a5ed1df29951147e2753e8ef505916",
+          "version": "1.0.17"
+        }
+      },
+      {
+        "package": "DNSCore",
+        "repositoryURL": "https://github.com/DoubleNode/DNSCore.git",
+        "state": {
+          "branch": null,
+          "revision": "b3ee4810f3564d4eb25ed1a2c11f47893307b162",
+          "version": "1.0.12"
+        }
+      },
+      {
+        "package": "DNSCoreThreading",
+        "repositoryURL": "https://github.com/DoubleNode/DNSCoreThreading.git",
+        "state": {
+          "branch": null,
+          "revision": "66d5e01881d1d822789051fa79332a5e0ffd93b8",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "DNSCrashWorkers",
+        "repositoryURL": "https://github.com/DoubleNode/DNSCrashWorkers.git",
+        "state": {
+          "branch": null,
+          "revision": "fff0f8bc771728a32d15009eeb868e4e2e62a521",
+          "version": "1.0.5"
+        }
+      },
+      {
+        "package": "DNSDataObjects",
+        "repositoryURL": "https://github.com/DoubleNode/DNSDataObjects.git",
+        "state": {
+          "branch": null,
+          "revision": "01e900904349b1ed9c47ddebf90cb164e93ef9b0",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "DNSProtocols",
+        "repositoryURL": "https://github.com/DoubleNode/DNSProtocols.git",
+        "state": {
+          "branch": null,
+          "revision": "3c3db5c817585a761cd81aee652aa072c22f3929",
+          "version": "1.0.15"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
