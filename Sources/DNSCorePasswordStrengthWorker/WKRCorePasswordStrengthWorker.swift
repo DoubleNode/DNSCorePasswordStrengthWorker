@@ -21,7 +21,8 @@ open class WKRCorePasswordStrengthWorker: WKRBlankPasswordStrengthWorker
 
     // MARK: - Business Logic / Single Item CRUD
 
-    override open func doCheckPasswordStrength(for password: String) throws -> PTCLPasswordStrengthType {
+    override open func intDoCheckPasswordStrength(for password: String,
+                                                  then resultBlock: PTCLResultBlock?) throws -> PTCLPasswordStrengthType {
         let len = password.count
         var strength = 0
         
@@ -33,7 +34,9 @@ open class WKRCorePasswordStrengthWorker: WKRBlankPasswordStrengthWorker
         if self.utilityValidate(string: password, with: regexOneLowercase, caseSensitive: true) > 0 { strength += 1 }
         if self.utilityValidate(string: password, with: regexOneNumber, caseSensitive: true) > 0 { strength += 1 }
         if self.utilityValidate(string: password, with: regexOneSymbol, caseSensitive: true) > 0 { strength += 1 }
-        
+
+        _ = resultBlock?(.completed)
+
         switch strength {
         case ..<4: return .weak
         case 4..<6: return .moderate
