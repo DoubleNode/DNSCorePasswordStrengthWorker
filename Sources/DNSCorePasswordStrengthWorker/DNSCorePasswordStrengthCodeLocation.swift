@@ -8,6 +8,9 @@
 
 import DNSError
 
+public extension DNSCodeLocation {
+    typealias passwordStrength = DNSCorePasswordStrengthCodeLocation
+}
 open class DNSCorePasswordStrengthCodeLocation: DNSCodeLocation {
     override open class var domainPreface: String { "com.doublenode.corePasswordStrength." }
 }

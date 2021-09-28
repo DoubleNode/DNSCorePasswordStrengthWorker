@@ -22,7 +22,7 @@ open class WKRCorePasswordStrengthWorker: WKRBlankPasswordStrengthWorker
     // MARK: - Business Logic / Single Item CRUD
 
     override open func intDoCheckPasswordStrength(for password: String,
-                                                  then resultBlock: PTCLResultBlock?) throws -> PTCLPasswordStrengthType {
+                                                  then resultBlock: PTCLResultBlock?) throws -> PTCLPasswordStrength.Level {
         let len = password.count
         var strength = 0
         
