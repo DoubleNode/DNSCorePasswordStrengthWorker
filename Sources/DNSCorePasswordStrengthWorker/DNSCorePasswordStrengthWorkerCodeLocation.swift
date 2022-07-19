@@ -1,5 +1,5 @@
 //
-//  DNSCorePasswordStrengthCodeLocation.swift
+//  DNSCorePasswordStrengthWorkerCodeLocation.swift
 //  DoubleNode Swift Framework (DNSFramework) - DNSCorePasswordStrengthWorker
 //
 //  Created by Darren Ehlers.
@@ -9,8 +9,8 @@
 import DNSError
 
 public extension DNSCodeLocation {
-    typealias passwordStrength = DNSCorePasswordStrengthCodeLocation
+    typealias passwordStrength = DNSCorePasswordStrengthWorkerCodeLocation
 }
-open class DNSCorePasswordStrengthCodeLocation: DNSCodeLocation {
+open class DNSCorePasswordStrengthWorkerCodeLocation: DNSCodeLocation {
     override open class var domainPreface: String { "com.doublenode.corePasswordStrength." }
 }
